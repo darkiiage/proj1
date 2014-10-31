@@ -12,7 +12,6 @@ void foo(char *argv[])
 {
   char buf[256];
   bar(argv[1], buf);
-  printf("\n after bar buf becomes %s\n", buf);
 }
 
 int main(int argc, char *argv[])
